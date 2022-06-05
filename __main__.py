@@ -1,3 +1,19 @@
+"""
+PORTFOLIO PROGRAMMING ASSIGNMENT - IMPROVING THE STOCK PROBLEM WITH ADDITIONAL FUNCTIONALITY
+Name: Ronit Sonawane
+Course: ICT 4370-1
+Date: 06/04/2022
+The python code calculates how much the investor has earned or lost.
+It also calculates the yearly earning/loss rate for each stock.
+Calculations of profit/loss and yearly earning/loss rate each have their own module
+If complete portfolio is in profit, the program prints the symbol of highest increased stock.
+If complete portfolio is in loss, the program prints the symbol of least decreased stock.
+Finally, the program saves a graph in .png format to show the transaction history.
+The data is loaded could be loaded from csv, json files.
+The input files can be defined in config.ini file.
+Prerequisite: Please put Lesson6_Data_Bonds.csv, Lesson6_Data_Stocks.csv and AllStocks.json files in the working directory.
+"""
+
 import datetime
 import json
 import sys
